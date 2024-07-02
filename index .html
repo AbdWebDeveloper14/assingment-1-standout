@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Standout</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/standout logo.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<style>
+*{
+    /* border: 1px solid red; */
+
+}
+.icons{
+    height:60px;
+    width:60px;
+    background-color: rgb(17, 17, 17);
+    border-radius: 50%;
+    padding-top: 15px;
+    text-align: center;
+}
+.icons:hover{
+background-color: rgb(26, 151, 26);
+transition: 0.5s ease-in-out;
+cursor: pointer;
+}
+.navbar{
+    height: 80px;
+    background-color: rgb(16, 19, 16);
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+.nav {
+
+  }
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.s-header{
+    background-image: url(images/pattern.jpg);
+    height: auto;
+    width: 100%;
+}
+.navbaricon{
+    height: 40px;
+    width: 40px;
+    margin: 2px;
+background-color: black;
+text-align: center;
+border-radius: 50%;
+padding-top: 5px;
+}
+.navbaricon:hover{
+    background-color: green;
+    transition: 0.5s ease-in-out;
+}
+.mainboss{
+    width: 100%;
+}
+.ancher1{
+    color: green;
+    margin-top: 5px;
+    text-decoration: none;
+}
+.ancher1:hover{
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+.ancher{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    margin-top: 5px;
+}
+.ancher:hover{
+    color: green;
+    transition: 0.5s ease-in-out;
+}
+.Amazing{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 80px;
+    font-size: 50px;
+}
+.greenbutton{
+    height: 60px;
+    width: 250px;
+border: none;
+color: white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 700;
+outline: none;
+background-color: rgb(26, 151, 26);
+text-transform: uppercase;
+border-radius: 10px;
+}
+.para{
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+    text-align: justify;
+    font-size: 20px;
+}
+.hrline{
+    color: green;
+    border: 10px;
+    width: 150px;
+}
+.greenarea{
+    height: auto;
+    width: 100%;
+    background-color: rgb(26, 151, 26);
+    color: white;
+    margin-top: 0px;
+}
+.lead{
+    color: white;
+font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif\;
+}
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color:gray;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: green;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+.slideshow-container{
+    background-color: rgb(26, 151, 26);
+}
+.dot-container{
+    background-color: rgb(26, 151, 26);
+}
+.lorem{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.text1{
+    color: white;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.display{
+    font-size: 45px;
+}
+.how{
+    color: black;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+.text-align{
+    text-align: justify;
+}
+.numdiv{
+    height: 40px;
+    width: 40px;
+    color: white;
+    font-weight: 700;
+    background-color: rgb(26, 151, 26);
+    padding-top: 10px;
+    border-radius: 50%;
+}
+.codecolor{
+color: black;
+font-weight: 700;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 25px;
+}
+.quotes{
+    color: gray;
+    font-weight: 700;
+}
+.lead1{
+    color: gray;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cardtext{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: black;
+font-size: 30px;
+font-weight: 700;
+}
+.slideshow-container1{
+    background-color: #ffff;
+}
+.dot-container1{
+    background-color: #fff;
+}
+.navbar-toggler{
+    background-color: green;
+}
+.navbar-toggler-icon{
+    color: green;
+}
+.header{
+    width: 100%;
+    background-image: linear-gradient( black);
+}
+.picradius{
+    border-radius: 50%;
+}
+.lorem1{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+    text-align: justify;
+}
+.username{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: green;
+    text-align: justify;
+}
+.plans{
+    height: auto;
+    width:400px;
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.plans:hover{
+    color: white;
+    background-color: green;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    list-style: color(green);
+}
+.plannative{
+    height: 500px;
+    width: 400px;
+    background-color: green;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.plannative:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.plansbutton{
+    height: 60px;
+    width: 250px;
+    border: none;
+    outline: none;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+.plansbutton:hover{
+    background-color: white;
+    color: green;
+transition: 0.5s ease-in-out;
+}
+.plansbutton1{
+    height: 60px;
+    width: 150px;
+    background-color: green;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    margin-left: -5px;
+    border-radius: 5px;
+}
+.basic{
+    color: black;
+font-size: 25px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text2{
+    color: black;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+}
+.probutton{
+    height: 60px;
+    width: 250px;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: black;
+        border-radius: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.nemo{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.download{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 0;
+    font-size: 55px;
+}
+.lorem2{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px
+}
+.footer{
+    height: auto;
+    width: 100%;
+    background-color: rgb(16, 19, 16);
+}
+.footer1{
+    color: rgb(26, 151, 26);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 0;
+    font-size: 55px;
+}
+.footer2{
+    color: gray;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footerinput{
+    height: 60px;
+    width: 350px;
+    background-color: rgb(15, 15, 15);
+    border: none;
+    outline: none;
+    color: rgb(26, 151, 26);
+    border-radius: 5px;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+.footerinput ::placeholder{
+    color: gray;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.standout{
+    color: white;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.standout:hover{
+    color: green;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.standout1{
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: lowercase;
+}
+.standout1:hover{
+    color: green;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+.footerlast{
+    color: white;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.footerlast:hover{
+    color: green;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+</style>
+</head>
+<body>
+    <main class="s-header ">
+<section class="header">
+        <nav class="navbar  navbar-expand-lg navbar-light position-sticky top-0">
+            <a class="navbar-brand ms-5" href="#"><img src="images/icons/logo.svg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto ancher ">
+                    <li class="nav-item ">
+                        <a class=" ancher1 m-2 " href="#" title="intro">Intro </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class=" ancher m-2 " href="#About" title="about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class=" ancher m-2 " href="#Process" title="features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class=" ancher m-2 " href="#pricing" title="pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class=" ancher m-2 me-5 " href="Blog.html" title="">Blog</a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav mr-auto ancher ms-auto ">
+                    <div class="d-flex">
+                        <div class="icons ms-0 ms-lg-5"><img src="images/icons/facebook-f (4).svg" alt=""      height="30px" width="30px"></div>
+                        <div class="icons ms-0 ms-lg-2"><img src="images/icons/instagram (5).svg" alt=""      height="30px" width="30px"></div>
+                        <div class="icons ms-0 ms-lg-2 me-2 "><img src="images/icons/twitter (3).svg" alt=""      height="30px" width="30px"></div>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+</section>
+<div  class="d-block d-lg-flex">
+    <div class="col-12 col-lg-6">
+        <div class="p-0 p-lg-5  ms-0 ms-lg-5 mt-0 mt-lg-5 col-12 col-lg-12 ">
+            <p class="mt-5 mb-0 mt-lg-5 ms-2 ms-lg-5"><img src="images/thick_line_green.png" alt="" height="30px" width="75px"></p>
+            <p class="Amazing  mt-lg-5 ms-2 ms-lg-5">
+                An Amazing App <br>
+                That Does It All.
+            </p>
+            <p class="para mt-lg-5 ms-2 ms-lg-5">
+                Voluptatem ipsa quae ab illo inventore veritatis <br> et quasi architecto beatae vitae dicta sunt explicabo. <br> Nemo enim ipsam voluptatem quia.
+            </p>
+            <div class="mt-lg-5 ms-2 ms-lg-5">
+                <a href="#">
+                    <button class="greenbutton mt-lg-3 mb-5">
+                        Get The App
+                    </button>
+                </a> 
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-lg-1">
+    </div>
+    <div class="col-12 col-lg-6 ps-0 ps-lg-5">
+        <img src="images/app-user (1).jpg" alt="" height="700px" width="695" class="img-fluid ms-0 ms-lg-5">
+    </div>
+</div>
+        </main>
+<div  id="About" class="container-fluid greenarea text-center mt-0">
+        <p class="display-1 mt-5 pt-5">
+
+        The Most Popular And <br> Number 1 Mail App.
+        </p>
+        <p class="lead mt-5 ">
+        Et nihil atque ex. Reiciendis et rerum ut voluptate. Omnis molestiae nemo est. <br>
+        Ut quis enim rerum quia assumenda repudiandae non cumque qui. Amet repellat <br>
+        omnis ea. <br>
+        </p>
+        <div class="slideshow-container m-5">
+            <div class="mySlides text-left">
+                <h3 class="text1">Secure.</h3>
+              <p class="lorem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Fugiat quibusdam sapiente, illum magni dolor reprehenderit! Saepe, <br> obcaecati fugiat consequuntur nihil ipsum quis enim fugit consequatur <br> non rem unde sunt laboriosam?</p>
+            </div>
+            
+            <div class="mySlides">
+                <h3 class="text1">Smart.</h3>
+              <p class="lorem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Fugiat quibusdam sapiente, illum magni dolor reprehenderit! Saepe, <br> obcaecati fugiat consequuntur nihil ipsum quis enim fugit consequatur <br> non rem unde sunt laboriosam?</p>
+            </div>
+            
+            <div class="mySlides">
+                <h3 class="text1">User-Friendly.</h3>
+              <p class="lorem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Fugiat quibusdam sapiente, illum magni dolor reprehenderit! Saepe, <br> obcaecati fugiat consequuntur nihil ipsum quis enim fugit consequatur <br> non rem unde sunt laboriosam?</p>
+            </div>
+            
+            <div class="mySlides">
+                <h3 class="text1">Powerful.</h3>
+              <p class="lorem">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Fugiat quibusdam sapiente, illum magni dolor reprehenderit! Saepe, <br> obcaecati fugiat consequuntur nihil ipsum quis enim fugit consequatur <br> non rem unde sunt laboriosam?</p>
+              </div>
+
+            
+            </div>
+            
+            <div class="dot-container m-5">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+              <span class="dot" onclick="currentSlide(4)"></span> 
+            </div>
+
+
+<div class="container">
+    <img src="images/account pic.webp" alt=""class="img-fluid" >
+</div>
+        </div>
+<div id="Process" class="container-fluid whitearea text-center pt-5 ">
+<h2 class="how mt-5">How The App Works?</h2>
+
+<div class="d-block d-lg-flex text-center">
+<div class="col-12 col-md-6 col-lg-3  ps-0 ps-lg-5">
+<div class="d-flex ms-0 ms-lg-5">
+    <div class="numdiv"><p>1</p></div>&nbsp;
+    <div class="ms-2 mt-1 mb-2 codecolor">Sing up</div>
+</div>
+<p class="text-align ms-0 ms-lg-5 quotes">Quos dolores saepe mollitia <br> deserunt  accusamus autem <br> reprehenderit. Voluptas  facere <br> animi explicabo non quis magni <br>  recusandae.  Numquam debitis <br> pariatur omnis facere unde.</p>
+</div>
+<div class="col-12 col-md-6 col-lg-3 ">
+    <div class="d-flex ms-0 ms-lg-5">
+        <div class="numdiv">2<p></p></div>&nbsp;
+        <div class="ms-2 mt-1 mb-2 codecolor">Create</div>
+    </div>
+    <p class="text-align ms-0 ms-lg-5 quotes">Quos dolores saepe mollitia <br> deserunt  accusamus autem <br> reprehenderit. Voluptas  facere <br> animi explicabo non quis magni <br>  recusandae.  Numquam debitis <br> pariatur omnis facere unde.</p>
+</div>
+<div class="col-12 col-md-6 col-lg-3 ">
+    <div class="d-flex ms-0 ms-lg-5">
+        <div class="numdiv"><p>3</p></div>&nbsp;
+        <div class="ms-2 mt-1 mb-2 codecolor">Compose</div>
+    </div>
+    <p class="text-align ms-0 ms-lg-5 quotes">Quos dolores saepe mollitia <br> deserunt  accusamus autem <br> reprehenderit. Voluptas  facere <br> animi explicabo non quis magni <br>  recusandae.  Numquam debitis <br> pariatur omnis facere unde.</p>
+</div>
+<div class="col-12 col-md-6 col-lg-3 ">
+    <div class="d-flex ms-0 ms-lg-5">
+        <div class="numdiv"><p>4</p></div>&nbsp;
+        <div class="ms-2 mt-1 mb-2 codecolor">Send</div>
+    </div>
+    <p class="text-align ms-0 ms-lg-5 quotes">Quos dolores saepe mollitia <br> deserunt  accusamus autem <br> reprehenderit. Voluptas  facere <br> animi explicabo non quis magni <br>  recusandae.  Numquam debitis <br> pariatur omnis facere unde.</p>
+</div>
+</div>
+
+<div class="img-fluid  mt-5 pt-5">
+    <img src="images/phone.webp" alt="" height="1000px" width="700px" class="img-fluid">
+</div>
+</div>
+    <div id="Features">
+<p class="how text-center">Loaded With Features You  <br>Would Surely Love.</p>
+<p class="lead1 mt-5  text-center">
+    Et nihil atque ex. Reiciendis et rerum ut voluptate. Omnis molestiae nemo est. <br>
+    Ut quis enim rerum quia assumenda repudiandae non cumque qui. Amet repellat <br>
+    omnis ea. <br>
+    </p>
+<div class="white mt-2 mt-lg-5 pt-5 ">
+    <div class="container-fluid d-block d-lg-flex ms-0 ms-lg-5 ps-0 ps-lg-5">
+    <div class="col-12 col-lg-6  ms-0 ms-lg-5 ps-0 ps-lg-5 cardnation text-left">
+       <div class="cards d-flex ">
+    <div>
+        <img src="images/Screenshot_25-6-2024_14048_preview.colorlib.com.jpeg" alt="">
+    </div>
+    <div>
+        <p class="ms-2 mt-2 cardtext">Cloud Based</p>
+    </div>     
+       </div>
+       <p class="nemo">Nemo cupiditate ab quibusdam quaerat impedit <br> magni. Earum suscipit ipsum laudantium. Quo  <br>delectus est. Maiores voluptas ab sit natus veritatis ut. <br> Debitis nulla cumque veritatis. Sunt suscipit voluptas <br> ipsa in tempora esse soluta sint.</p>
+    </div>
+    <div class="col-12 col-lg-6 cardnation ms-0 ms-lg-5 ps-0 ps-lg-5">
+       <div class="cards d-flex ">
+     <div><img src="images/Screenshot_25-6-2024_14138_preview.colorlib.com.jpeg" alt=""></div>
+    <div> <p class="ms-2 mt-2 cardtext">Voice & Video</p></div>
+       </div>
+       <p class="nemo">Nemo cupiditate ab quibusdam quaerat impedit <br> magni. Earum suscipit ipsum laudantium. Quo  <br>delectus est. Maiores voluptas ab sit natus veritatis ut. <br> Debitis nulla cumque veritatis. Sunt suscipit voluptas <br> ipsa in tempora esse soluta sint.</p>
+    </div>
+    </div>
+
+    <div class="container-fluid d-block d-lg-flex ms-0 ms-lg-5 ps-0 ps-lg-5">
+        <div class="col-12 col-lg-6 cardnation ms-0 ms-lg-5 ps-0 ps-lg-5">
+           <div class="cards d-flex ">
+        <div>
+            <img src="images/Screenshot_25-6-2024_14233_preview.colorlib.com.jpeg" alt="">
+        </div>
+        <div>
+            <p class="ms-2 mt-2 cardtext">Always Secure</p>
+        </div>     
+           </div>
+           <p class="nemo">Nemo cupiditate ab quibusdam quaerat impedit <br> magni. Earum suscipit ipsum laudantium. Quo  <br>delectus est. Maiores voluptas ab sit natus veritatis ut. <br> Debitis nulla cumque veritatis. Sunt suscipit voluptas <br> ipsa in tempora esse soluta sint.</p>
+        </div>
+        <div class="col-12 col-lg-6 cardnation ms-0 ms-lg-5 ps-0 ps-lg-5">
+           <div class="cards d-flex ">
+         <div><img src="images/Screenshot_25-6-2024_14818_preview.colorlib.com.jpeg" alt=""></div>
+        <div> <p class="ms-2 mt-3 cardtext">Play Games</p></div>
+           </div>
+           <p class="nemo">Nemo cupiditate ab quibusdam quaerat impedit <br> magni. Earum suscipit ipsum laudantium. Quo  <br>delectus est. Maiores voluptas ab sit natus veritatis ut. <br> Debitis nulla cumque veritatis. Sunt suscipit voluptas <br> ipsa in tempora esse soluta sint.</p>
+        </div>
+        </div>
+
+        <div class="container-fluid d-block d-lg-flex ms-0 ms-lg-5 ps-0 ps-lg-5">
+            <div class="col-12 col-lg-6 cardnation ms-0 ms-lg-5 ps-0 ps-lg-5">
+               <div class="cards d-flex ">
+            
+            <div>
+                <img src="images/Screenshot_25-6-2024_14857_preview.colorlib.com.jpeg" alt="">
+            </div>
+            <div>
+                <p class="ms-2 mt-2 cardtext">Group Chat</p>
+            </div>     
+               </div>
+               <p class="nemo">Nemo cupiditate ab quibusdam quaerat impedit <br> magni. Earum suscipit ipsum laudantium. Quo  <br>delectus est. Maiores voluptas ab sit natus veritatis ut. <br> Debitis nulla cumque veritatis. Sunt suscipit voluptas <br> ipsa in tempora esse soluta sint.</p>
+            </div>
+            <div class="col-12 col-lg-6 cardnation ms-0 ms-lg-5 ps-0 ps-lg-5">
+               <div class="cards d-flex ">
+             <div><img src="images/Screenshot_25-6-2024_14935_preview.colorlib.com.jpeg" alt=""></div>
+            <div> <p class="ms-2 mt-2 cardtext">Payments</p></div>
+               </div>
+               <p class="nemo">Nemo cupiditate ab quibusdam quaerat impedit <br> magni. Earum suscipit ipsum laudantium. Quo  <br>delectus est. Maiores voluptas ab sit natus veritatis ut. <br> Debitis nulla cumque veritatis. Sunt suscipit voluptas <br> ipsa in tempora esse soluta sint.</p>
+            </div>
+            </div>
+    </div>
+</div>
+    <div class="mt-5 pt-5">
+        <p class="how text-center">1 Million+ Users Can't Be Wrong.</p>
+        <div class="slideshow-container slideshow-container1 m-5 ms-0 ms-lg-5 ps-0 ps-lg-5 d-block d-lg-flex">
+            <div class="  d-flex text-center  col-12 col-md-6 col-lg-4 mt-5 ">
+                <div class="me-2 ">
+<img src="images/user-01.jpg.webp" alt="" height="75px" width="75px" class="picradius ">
+                </div>
+<div>
+    <div class="d-flex ">
+        <p class="username me-2">Naruto Uzmaki</p>
+        <p class="lorem1 mt-2">@Naruto Uzmaki</p>
+    </div>
+    <p class="lorem1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Fugiat quibusdam sapiente, illum magni dolor reprehenderit! Saepe, <br> obcaecati fugiat consequuntur nihil ipsum quis enim fugit consequatur <br> non rem unde sunt laboriosam?</p>
+</div>
+        </div>
+        
+        <div class="  d-flex text-center  col-12 col-md-6 col-lg-4 mt-5">
+            <div class="me-2 ">
+<img src="images/user-02.jpg.webp" alt="" height="75px" width="75px" class="picradius ">
+            </div>
+<div>
+    <div class="d-flex">
+        <p class="username me-2">Sasuke Uchiha</p>
+        <p class="lorem1 mt-2">@Sasuke Uchiha</p>
+    </div>
+<p class="lorem1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Fugiat quibusdam sapiente, illum magni dolor reprehenderit! Saepe, <br> obcaecati fugiat consequuntur nihil ipsum quis enim fugit consequatur <br> non rem unde sunt laboriosam?</p>
+</div>
+    </div>
+        
+    <div class="  d-flex text-center col-12 col-md-6 col-lg-4 mt-5">
+        <div class="me-2 ">
+<img src="images/user-03.jpg.webp" alt="" height="75px" width="75px" class="picradius ms-0 ms-lg-5 ">
+        </div>
+<div>
+    <div class="d-flex">
+        <p class="username me-2">Shikamaru Nara</p>
+        <p class="lorem1 mt-2">@Shikamaru Nara</p>
+    </div>
+<p class="lorem1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Fugiat quibusdam sapiente, illum magni dolor reprehenderit! Saepe, <br> obcaecati fugiat consequuntur nihil ipsum quis enim fugit consequatur <br> non rem unde sunt laboriosam?</p>
+</div>
+</div>
+    </div> 
+</div>
+<div id="pricing" class="">
+    <p class="how text-center mt-5 ">Our Easy Pricing Plans <br> For Everyone.</p>
+    <p class="lead1 mt-5 text-center ">
+        Et nihil atque ex. Reiciendis et rerum ut voluptate. Omnis molestiae nemo est. <br>
+        Ut quis enim rerum quia assumenda repudiandae non cumque qui. Amet repellat <br>
+        omnis ea. <br>
+    </p>
+    <div class="container-fluid  d-block d-lg-flex ps-0 ps-lg-5 ">
+        <div class=" d-block d-lg-flex ms-0 ms-lg-5 p-0 p-lg-5">
+<div class="col-12 col-md-6 col-lg-4 plans ms-0 ms-lg-5 m-5">
+    <p class="basic mt-5 ms-5">Basic</p>
+    <p class="text2 mt-5 ms-5">Free</p>
+    <ul>
+        <li class=" mt-3 ms-3">5GB Storage</li>
+        <li class=" mt-3 ms-3">10GB Bandwidth</li>
+        <li class=" mt-3 ms-3">5 Data Base</li>
+        <li class=" mt-3 ms-3">30 Emails Account</li>
+    </ul>
+<a href="#" class="ms-3"><button class="plansbutton ms-5">Get Started</button></a>
+</div>
+<div class="col-12 col-md-6 col-lg-4 plannative ms-0 ms-lg-5 m-5">
+    <p class="basic mt-5 ms-5">Pro Plan</p>
+    <div class="d-flex">
+        <p class="text2 mt-3 ms-5 me-2">$10 </p>
+        <p class="mt-5">Per Month</p>
+    </div>
+    <ul>
+        <li class=" mt-3 ms-3">500GB Storage</li>
+        <li class=" mt-3 ms-3">Unlimited Bandwidth</li>
+        <li class=" mt-3 ms-3">50 Data Base</li>
+        <li class=" mt-3 ms-3">50 Emails Account</li>
+    </ul>
+<a href="#" class="ms-3"><button class="probutton ms-5">Get Started</button></a>
+</div>
+<div class="col-12 col-md-6 col-lg-4 plans ms-0 ms-lg-5 pt-5 m-5">
+    <p class="basic mt-0 ms-5">Ultimate Plan</p>
+    <div class="d-flex">
+        <p class="text2 mt-3 ms-5 me-2">$20 </p>
+        <p class="mt-5">Per Month</p>
+    </div>
+    <ul>
+        <li class=" mt-3 ms-3">1TB Storage</li>
+        <li class=" mt-3 ms-3">Unlimited Bandwidth</li>
+        <li class=" mt-3 ms-3">100 Data Base</li>
+        <li class=" mt-3 ms-3">100 Emails Account</li>
+    </ul>
+    <a href="#" class="ms-3"><button class="plansbutton ms-5">Get Started</button></a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="container-fluid greenarea mt-5 pt-5 d-block d-lg-flex">
+<div class="col-12 col-lg-6 text-center">
+    <img src="images/Screenshot_25-6-2024_195144_preview.colorlib.com-removebg-preview.png" alt="" class=" img-fluid " height="300px" >
+</div>
+<div class="col-12 col-lg-6 mt-5 pt-5" >
+<p class=" mb-3 download">Download The App Now!</p>    
+<p class="lorem2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, <br> sed do eiusmod tempor incididunt ut labore et dolore magna <br> aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br> ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <img src="images/Screenshot_25-6-2024_195843_preview.colorlib.com-removebg-preview.png" alt="" class="ms-0">
+    <img src="images/Screenshot_25-6-2024_20028_preview.colorlib.com-removebg-preview.png" alt="">
+</div>
+</div>
+    <div class=" footer container-fluid footer p-3 p-lg-5">
+       <div class="d-block d-lg-flex p-0 p-lg-5">
+           <div class=" col-12 col-lg-6 ">
+               <p class="footer1 mt-5 ms-0 ms-lg-5">Let's Stay In Touch.</p>
+               <p class="footer2 ms-0 ms-lg-5">Subscribe for updates, special offers and  more.</p>
+            </div>
+            <div class=" col-12 col-lg-6">
+                <input type="" class="footerinput " placeholder="Email Address">
+                <a href="#"><button class="plansbutton1 mt-5  ">S&nbsp;I&nbsp;N&nbsp;G&nbsp;&nbsp; U&nbsp;P&nbsp;</button></a>  
+            </div>
+        </div>
+        <div><hr></div>
+        <div class="d-block d-lg-flex p-0 p-lg-5">
+<div class="col-6 ">
+    <p class="standout mt-5 ms-0 ms-lg-5">standout.</p>
+    <p class="lorem1 ms-0 ms-lg-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed <br> do eiusmod tempor incididunt ut labore et dolore magna <br> aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br> ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<div class="d-flex">
+    <div class="icons ms-0 ms-lg-5"><img src="images/icons/facebook-f (4).svg" alt=""      height="30px" width="30px"></div>
+    <div class="icons ms-0 ms-lg-2"><img src="images/icons/instagram (5).svg" alt=""      height="30px" width="30px"></div>
+    <div class="icons ms-0 ms-lg-2"><img src="images/icons/twitter (3).svg" alt=""      height="30px" width="30px"></div>
+</div>
+</div>
+<div class="col-6">
+    <div class=" mt-5 ">
+        <div>
+            <a class=" ancher1 m-2 " href="#" title="intro">Intro </a>
+            
+            <a class=" ancher m-2 " href="#About" title="about">About</a>
+            
+            <a class=" ancher m-2 " href="#Process" title="features">Features</a>
+            
+            
+            <a class=" ancher m-2 " href="#pricing" title="pricing">Pricing</a>
+            
+            <a class=" ancher m-2 me-5 " href="Blog" title="">Blog</a>
+        </div>
+        <p class="lorem1 mt-5 ms-1 mb-0">Do you have a question? Send us a word:</p>
+        <p class="standout1 mt-0 ms-1">support@standout.com</p>
+
+        <p class="footerlast mt-5">Copyright ©2024 All rights reserved | This template is made with  by Muhammad Abdullah</p>
+    </div>
+    </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   <script src="web.js">  var slideIndex = 1;
+ </script>
+
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+</html>
